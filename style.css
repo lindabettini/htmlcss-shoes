@@ -25,21 +25,6 @@
   
   .full-page {
     height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  
-    position: relative;
-  }
-  
-  .full-page::before {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    width: 100%;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
   }
   
   .full-page .content {
