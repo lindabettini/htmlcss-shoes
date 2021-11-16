@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
   }
   
   body {
@@ -18,33 +17,37 @@
   }
   
   /* Utilities */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
   
   .full-page {
     height: 100vh;
   }
   
-  .full-page .content {
-    color: rgb(252, 217, 19);
+  /* SNEAKERS */
+
+
+    /* .content {
+    color: black;
     text-align: center;
     position: absolute;  
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  } */
+
+  #sneakers{
+      position: relative;
   }
-  
+
+  #sneakers img{
+      width: auto;
+      height: 200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
   #sneakers {
     background-color: #FF0000;
+    color: yellow;
   }
-
-  #tommy-h {
-    background-color: rgba(0,128,0,255);
-  }
-
-  #converse {
-    background-color: #ffff00;
-  }
-  
