@@ -18,26 +18,36 @@
 
   /* Nav */
 
-  /* nav{
-      position: relative;
+#main-menu {
+    position: fixed;
+    z-index: 2;
+    right: 10px;
+    top: 40px;
+    display: inline-block;
+    transform: translateY(-50%);
+  }
+  
+  #main-menu li a:hover {
+    transform: scale(1.2);
   }
 
-ul{
-    position: absolute;
-    right: 0;
-} */
+  #main-menu li:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
 
-  li{
+  #main-menu li{
       display: inline-block;
-      background-color: black;
-      height: 30px;
-      width: 30px;
-      line-height: 30px;
+      background-color: white;
+      height: 35px;
+      width: 35px;
+      line-height: 35px;
       position: relative;
       border-radius: 50%;
+      overflow: hidden;
+      margin-right: 10px;
   }
 
-  a{
+  #main-menu li a{
       position: absolute;
       top:0;
       bottom: 0;
@@ -45,6 +55,9 @@ ul{
       right: 0;
       text-align: center;
       vertical-align: middle;
+      text-decoration: none;
+      font-size: 16px;
+      color: black;
   }
 
   
@@ -56,13 +69,13 @@ ul{
   
   /* SNEAKERS */
 
-  #sneakers{
+  #sneakers, #tommy-h, #converse{
       position: relative;
   }
 
-  #sneakers img{
+  #sneakers img, #tommy-h img, #converse img {
       width: auto;
-      height: 200px;
+      height: 45vh;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -74,10 +87,10 @@ ul{
      top: 75%;
      left: 50%;
      transform: translate(-50%, -75%);
-     font-size: 35px;
+     font-size: 7vh;
      letter-spacing: 5px;
      text-align: center;
-     margin-top: 30px;
+     margin-top: 35px;
   }
 
   #sneakers {
