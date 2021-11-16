@@ -6,15 +6,15 @@
     box-sizing: border-box;
   }
   
-  body {
+body {
     font-family: 'Teko', sans-serif; 
-  }
+}
   
-  html,
-  body,
-  main {
+html,
+body,
+main {
     height: 100vh;
-  }
+}
 
   /* Nav */
 
@@ -61,38 +61,40 @@
   }
 
   
-  /* Utilities */
+  /* Pages Utilities */
   
-  .full-page {
+.full-page {
     height: 100vh;
-  }
+}
+
+#sneakers, #tommy-h, #converse{
+    position: relative;
+}
+
+#sneakers img, #tommy-h img, #converse img {
+    width: auto;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-img{
+   position: absolute;
+   top: 75%;
+   left: 50%;
+   transform: translate(-50%, -75%);
+   font-size: 7vh;
+   letter-spacing: 5px;
+   text-align: center;
+   margin-top: 50px;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
   
-  /* SNEAKERS */
-
-  #sneakers, #tommy-h, #converse{
-      position: relative;
-  }
-
-  #sneakers img, #tommy-h img, #converse img {
-      width: auto;
-      height: 45vh;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  }
-
-  .title-img{
-     position: absolute;
-     top: 75%;
-     left: 50%;
-     transform: translate(-50%, -75%);
-     font-size: 7vh;
-     letter-spacing: 5px;
-     text-align: center;
-     margin-top: 50px;
-  }
-
+  /* Page's color */
+  
   #sneakers {
     background-color: rgb(255,0,0);
     color: rgb(255,255,0);
