@@ -90,10 +90,22 @@
      font-size: 7vh;
      letter-spacing: 5px;
      text-align: center;
-     margin-top: 35px;
+     margin-top: 50px;
   }
 
   #sneakers {
-    background-color: #FF0000;
-    color: yellow;
+    background-color: rgb(255,0,0);
+    color: rgb(255,255,0);
   }
+
+  #tommy-h {
+    background-color:rgb(0,128,0);
+    color: rgb(255,255,0);
+  }
+
+  #converse {
+    background-color:rgb(255,255,0);
+    color: rgb(0,128,0);
+  }
+  
+  
